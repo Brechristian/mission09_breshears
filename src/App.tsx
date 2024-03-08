@@ -47,10 +47,12 @@ class Team extends React.Component<TeamProps> {
           {' '}
           {/* Adjusted padding here */}
           <div className="card-body">
-            <h5 className="card-title">{oneTeam.school}</h5>
-            <h6 className="card-subtitle mb-2 text-muted">{oneTeam.name}</h6>
+            <h5 className="card-title">School: {oneTeam.school}</h5>
+            <h6 className="card-subtitle mb-2 text-muted">
+              Mascot: {oneTeam.name}
+            </h6>
             <p className="card-text">
-              {oneTeam.city}, {oneTeam.state}
+              Location: {oneTeam.city}, {oneTeam.state}
             </p>
           </div>
         </div>
